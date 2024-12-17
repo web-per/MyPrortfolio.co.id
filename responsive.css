@@ -1,0 +1,214 @@
+/* Responsive 1024px */
+@media (max-width: 1024px) {
+    /* Home */
+    .home {
+        height: auto;
+    }
+
+    .logo h1 {
+        font-size: 0.5rem;
+    }
+
+    .home .nama-1 h1 {
+        font-size: 4rem;
+    }
+    
+    .home .nama-1 h2 {
+        font-size: 4rem; letter-spacing: 25px;
+    }
+
+    .home .btn {
+        width: 25%;
+    }
+
+    .home-content {
+        width: 70%;
+    }
+    
+    .home .home-content p {
+        font-size: 0.5rem;
+    }
+
+    /* Tentang Saya */
+    .tentang-saya h1 {
+        font-size: 1.5rem;
+    }
+
+    .tentang-saya p {
+        font-size: 0.8rem;
+    }
+
+    /* Skill */
+    .skill h1 {
+        font-size: 2rem; margin-bottom: 2%;
+    }
+
+    .skill-box h2 {
+        font-size: 1rem;
+    }
+
+    /* Project */
+    .project h1 {
+        font-size: 2rem;
+    }
+
+    /* Kontak */
+    .kontak h1 {
+        font-size: 2rem;
+    }
+
+    .kontak-box h1 {
+        font-size: 1.5rem;
+    }
+
+    .kontak-box p {
+        font-size: 0.8rem;
+    }
+
+    iframe {
+        height: 350px;
+    }
+
+    /* Footer */
+    footer {
+        font-size: 0.8rem; margin-bottom: 7%;
+    }
+}
+
+
+/* Responsive 768px */
+@media (max-width: 768px) {
+    /* Home */
+    .logo {
+        padding: 30px 0px;
+    }
+
+    .logo h1 {
+        letter-spacing: 0px;
+    }
+
+    .logo .logo-img {
+        width: 6rem; height: 6rem;
+    }
+
+    .home .nama-1 {
+        margin-top: 10%;
+    }
+
+    .home .nama-1 h1 {
+        font-size: 2rem; margin-bottom: 2%;
+    }
+
+    .home .nama-1 h2 {
+        font-size: 2rem; letter-spacing: 10px;
+        margin-bottom: 2%;
+    }
+
+    .home .btn {
+        margin: auto; width: 35%; padding: 5px;
+    }
+
+    .home .btn a{
+        font-size: 0.7rem;
+    }
+
+    .home .home-content {
+        display: block; margin-top: 30%;
+    }
+
+    .home .home-content p {
+        margin-bottom: 0%;
+    }
+
+    .home-content .home-box {
+        padding: 20px 20px;
+        border-left: 1px solid white;
+        border-right: 1px solid white;
+    }
+    
+    .home-content .home-box-mid {
+        padding: 20px 20px;
+    }
+
+    /* Tentang Saya */
+    .tentang-saya {
+        width: 90%; margin-top: -10%;
+    }
+
+    .tentang-saya h1 {
+        text-align: center;
+    }
+
+    /* Skill */
+    .skill h1 {
+        margin-bottom: -15%; font-size: 1.5rem;
+    }
+
+    .skill-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .skill-box h2 {
+        margin-top: 20%;
+    }
+
+    .skill-img img {
+        margin: 10px 40px;
+    }
+
+    /* Project */
+    .project h1 {
+        font-size: 1.5rem; margin-bottom: 5%;
+    }
+
+    .project .project-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    /* Kontak */
+    .kontak {
+        width: 95%;
+    }
+
+    .kontak h1 {
+        font-size: 1.5rem;
+    }
+
+    .kontak-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .kontak-box h1 {
+        font-size: 1rem ;
+    }
+
+    .kontak-box p {
+        margin-bottom: 5%;
+    }
+
+    .maps {
+        margin-bottom: 10%;
+    }
+
+    iframe {
+        height: 200px;
+    }
+
+    .kontak-sosmed {
+        width: 70%; margin: auto;
+    }
+
+    .kontak-sosmed h1 {
+        font-size: 1.5rem; margin-bottom: 8%;
+    }
+
+    .kontak-sosmed a {
+        width: 2rem; height: 2rem; font-size: 1rem;
+        margin-bottom: 8%;
+    }
+
+    /* Footer */
+    footer {
+        font-size: 0.6rem;
+    }
+}

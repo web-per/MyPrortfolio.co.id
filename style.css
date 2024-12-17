@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=WindSong:wght@400;500&display=swap');
+
+* {
+    margin: 0; padding: 0; box-sizing: border-box;
+    text-decoration: none; border: none; outline: none;
+    font-family: 'Poppins'; list-style: none;
+}
+
+body {
+    background-color: black;
+}
+
+/* Home */
+.home {
+    background-image: linear-gradient(rgb(0, 0, 0, 0.45), 
+    rgb(0, 0, 0, 0.45)), url(background.jpg);
+    color: white; text-align: center; 
+    background-position: center;
+    background-repeat: no-repeat; background-size: cover;
+}
+
+.logo {
+    display: flex; justify-content: space-around;
+    text-align: center; align-items: center;
+    color: white;
+    padding: 60px 0px;
+}
+
+.logo h1 {
+    font-size: 0.7rem; font-weight: 300; letter-spacing: 3px;
+}
+
+.logo .logo-img {
+    border: 1px solid white; padding: 10px;
+    border-radius: 50%; width: 6rem; height: 6rem;
+}
+
+.logo .logo-img img {
+    width: 100%; border-radius: 50%;
+}
+
+.home .nama-1 h1 {
+    font-family: "WindSong";
+    letter-spacing: 5px; font-size: 6rem;
+    font-weight: 100;
+}
+
+.home .nama-1 h2 {
+    font-size: 6rem; letter-spacing: 45px;
+    margin-top: -2.5%; text-transform: uppercase;
+}
+
+.home .btn {
+    border-top: 3px solid white; border-bottom: 3px solid white;
+    border-radius: 20px; text-align: center; padding: 10px; 
+    width: 15%; transition: 0.5s ease; cursor: pointer;
+    margin: auto; margin-top: 10px;
+}
+
+.home .btn:hover {
+    transform: scale(1.1); box-shadow: 0 0 15px white;
+}
+
+.home .btn a{
+    color: white; letter-spacing: 2px; font-weight: bold;
+}
+
+.home .home-content {
+    display: flex; width: 90%; margin: auto;
+    margin-top: 9%;
+}
+
+.home .home-content p {
+    font-weight: 200; font-size: 0.7rem;
+    letter-spacing: 1px;
+}
+
+.home-content .home-box {
+    padding: 20px 40px;
+}
+
+.home-content .home-box-mid {
+    padding: 20px 40px;
+}
+
+.home-content .home-box-mid {
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+}
+
+/* Tentang Saya */
+.tentang-saya {
+    width: 80%; margin: auto;
+    padding: 8rem 1% 0rem;
+}
+
+.tentang-saya h1 {
+    color: white; font-size: 3rem; font-family: "Audiowide", sans-serif;
+    margin-bottom: 2%;
+}
+
+.tentang-saya p {
+    color: white; font-weight: 200; text-align: justify;
+    line-height: 35px;
+}
+
+/* Skill */
+.skill {
+    width: 80%; margin: auto;
+    padding: 8rem 1% 0rem;
+}
+.skill h1 {
+    color: white; font-size: 3rem; text-align: center;
+    font-family: "Audiowide", sans-serif; margin-bottom: 2%;
+}
+
+.skill-container {
+    display: grid; grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+}
+
+.skill-box h2 {
+    font-size: 2rem; color: white;
+    font-family: "Audiowide", sans-serif;
+}
+
+.skill-img {
+    cursor: pointer;
+}
+
+.skill-img img {
+    width: 20%; margin: 20px 20px;
+}
+
+/* Project */
+.project {
+    width: 80%; margin: auto;
+    padding: 8rem 1% 0rem;
+}
+
+.project h1 {
+    margin-bottom: 2%; font-size: 3rem; text-align: center;
+    color: white; font-family: "Audiowide", sans-serif;
+}
+
+.project .project-container {
+    display: grid; grid-template-columns: repeat(2, 1fr);
+    align-items: center; gap: 2rem;
+}
+
+.project-container .project-box {
+    border-radius: 10px;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, .1)
+}
+
+.project-box img {
+    width: 100%; cursor: pointer;
+}
+
+/* Kontak */
+.kontak {
+    width: 80%; margin: auto; margin-bottom: 10%;
+    padding: 8rem 1% 0rem;
+}
+
+.kontak h1 {
+    color: white; font-size: 3rem; text-align: center;
+    margin-bottom: 2%; font-family: "Audiowide", sans-serif;
+}
+
+.kontak-container {
+    display: grid; grid-template-columns: repeat(3, 1fr);
+    text-align: center; margin-bottom: 2%;
+}
+
+.kontak-box h1 {
+    font-size: 1.5rem; font-family: "Audiowide", sans-serif;
+}
+
+.kontak-box p {
+    color: white;
+}
+
+iframe {
+    border-radius: 10px; width: 100%; height: 450px;
+    margin-bottom: 2%;
+}
+
+.kontak-sosmed {
+    text-align: center;
+}
+
+.kontak-sosmed a {
+    color: white; border-top: 2px solid white; 
+    border-bottom: 2px solid white;  border-radius: 50%;
+    display: inline-flex; font-size: 1.3rem; width: 2.5rem; 
+    height: 2.5rem; justify-content: space-around; 
+    align-items: center; margin: 0px 10px; 
+    transition: 0.5s ease;
+}
+
+.kontak-sosmed a:hover {
+    box-shadow: 0  0 15px white; color: black;
+    background-color: white; transform: scale(1.3);
+}
+
+/* Footer */
+footer {
+    text-align: center; font-size: 1rem;
+    color: white; margin-bottom: 2%;
+}
